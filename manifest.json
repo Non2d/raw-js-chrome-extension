@@ -8,9 +8,21 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": [
+        "https://debatedata.io/"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
   ],
-  "permissions": ["activeTab"]
+  "permissions": [
+    "activeTab"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": [ "<all_urls>" ]
+    }
+  ]
 }
