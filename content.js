@@ -39,15 +39,15 @@ document.body.appendChild(topRightContainer);
 
 // 画像を追加
 const imageUrls = [
-  "./images/debate-graph-001.png",
-  "./images/debate-graph-002.png",
-  "./images/debate-graph-003.png",
-  "./images/debate-graph-001.png",
-  "./images/debate-graph-002.png",
-  "./images/debate-graph-003.png",
-  "./images/debate-graph-001.png",
-  "./images/debate-graph-002.png",
-  "./images/debate-graph-003.png",
+  "images/debate-graph-001.png",
+  "images/debate-graph-002.png",
+  "images/debate-graph-003.png",
+  "images/debate-graph-001.png",
+  "images/debate-graph-002.png",
+  "images/debate-graph-003.png",
+  "images/debate-graph-001.png",
+  "images/debate-graph-002.png",
+  "images/debate-graph-003.png",
 ];
 
 imageUrls.forEach((url) => {
